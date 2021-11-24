@@ -11,10 +11,13 @@
     </head>
 
     <body>
-      <a href="/">Home</a>
-      <a href="/myBlog">My Blog</a>
-      <a href="/createPosts">Create New Post</a>
-      <a href="/logout">Logout</a>
+      <div class = "navbuttons">
+        <a href="/" class = "navbutton">Home</a>
+        <a href="/search" class = "navbutton">Search</a>
+        <a href="/myBlog" class = "navbutton">My Blog</a>
+        <a href="/createPosts" class = "navbutton">Create New Post</a>
+        <a href="/logout" class = "navbutton">Logout</a>
+    </div>
       {% if found %}
       <h1>
         {{title}}
