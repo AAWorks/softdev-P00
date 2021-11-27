@@ -20,7 +20,7 @@
         {% endif %}
         {% for blog in blogs %}
         <hr>
-        <a href="/post/{{blog[0]}}"><h2>{{ blog[3] }}</h2></a>
+        <a href="/post/{{blog[0]}}" class="accessbutton"><h2>{{ blog[3] }}</h2></a>
             {% if blog[5] != blog[2] %}
             Posted: {{blog[2]}} (Edited: {{blog[5]}})
             {% else %}
