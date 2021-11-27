@@ -13,7 +13,7 @@
         <a href="/myBlog" class = "navbutton">My Blog</a>
         <a href="/createPosts" class = "navbutton">Create New Post</a>
         <a href="/logout" class = "navbutton">Logout</a>
-    </div> <br>
+    </div> <br> <br>
         <h1>
           Journal Home
         </h1>
@@ -36,9 +36,8 @@
         <h2>Most Recent Posts</h2>
         {% for blog in blogs %}
         <hr>
-        <a href="/post/{{blog[0]}}"><h2>{{ blog[3] }}</h2></a>
-        by {{ blog[1] }}
-        <br>
+        <a href="/post/{{blog[0]}}" class="accessbutton"><h2>{{ blog[3] }}</h2></a> <br>
+        <strong>by</strong> {{ blog[1] }}
         <br>
         <br>
         {% endfor %}

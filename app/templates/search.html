@@ -30,14 +30,14 @@
                 </select>
                 <br>
                 <input type="text" name="query" value = "{{ query }}">
-                <input type = "submit" name = "search" value = "Search">
+                <input type = "submit" name = "search" value = "Search" class="inputbutton">
             </form>
         </h3>
         {% if blogs %}
         <h1>Blog Posts</h1>
         {% endif %}
         {% for blog in blogs %}
-        <h2><a href ="/post/{{blog[0]}}">{{ blog[3] }}</a></h2>
+        <h2><a href ="/post/{{blog[0]}}" class="accessbutton">{{ blog[3] }}</a></h2>
         by {{ blog[1] }}
         <br>
         <br>
@@ -46,7 +46,7 @@
         <h1>User Blogs</h1>
         {% endif %}
         {% for user in users %}
-        <h2><a href ="/blog/{{user[1]}}">{{ user[2] }}</h2> @{{ user[1] }}</a>
+        <h2><a href ="/blog/{{user[1]}}" class="accessbutton">{{ user[2] }}</h2> @{{ user[1] }}</a>
         <br>
         <br>
         {% endfor %}

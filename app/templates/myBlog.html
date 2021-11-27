@@ -13,24 +13,27 @@
             <a href="/myBlog" class = "navbutton">My Blog</a>
             <a href="/createPosts" class = "navbutton">Create New Post</a>
             <a href="/logout" class = "navbutton">Logout</a>
-        </div>
+        </div> 
+        <br>
+        <br>
         <h1>
           My Blog Posts
-        </h1>
+        </h1> <br>
         {% if error %}
         <h2 style="color: red;">Error: {{error}}</h2>
         {% endif %}
         {% for blog in blogs %}
         <hr>
-        <a href="/post/{{blog[0]}}"><h2>{{ blog[3] }}</h2></a>
+        <a href="/post/{{blog[0]}}" class="accessbutton"><h2>{{ blog[3] }}</h2></a> <br>
             {% if blog[5] != blog[2] %}
             Posted: {{blog[2]}} (Edited: {{blog[5]}})
             {% else %}
             Posted: {{blog[2]}}
             {% endif %}
             <br>
-            <a href = "/editBlog/{{blog[0]}}">Edit</a>
-            <a href = "/deleteBlog/{{blog[0]}}">Delete</a>
+            <a href = "/editBlog/{{blog[0]}}" class = "minorlink">Edit</a>
+            <a href = "/deleteBlog/{{blog[0]}}" class = "minorlink">Delete</a>
+            <br>
         {% endfor %}
     </body>
 </html>

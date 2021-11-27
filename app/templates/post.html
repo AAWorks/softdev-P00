@@ -22,7 +22,7 @@
       <h1>
         {{title}}
       </h1>
-      <p>By {{ displayName }} @{{author}}</p>
+      <p>By {{ displayName }} @{{author}} <br>
       <small>
         {% if date != edit %}
         {{date}} (Edited: {{edit}})
@@ -30,7 +30,7 @@
         {{date}}
         {% endif %}
       </small>
-      <br>
+      </p>
       <br>
       <p>{{content}}</p>
       {% else %}
