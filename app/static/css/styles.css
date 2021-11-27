@@ -9,7 +9,7 @@ p {
 }
 
 .navbuttons .navbutton{
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 100, 136, 0.2);
 	border: none;
 	color: white;
 	padding: 15px 0px;
@@ -27,13 +27,13 @@ p {
 	transition: all 0.3s ease-out;
   }
 .navbuttons .navbutton:hover{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 100, 136, 0.5);
 }
 
 .accessbutton{
 	display: block;
 	float: center;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 100, 136, 0.2);
 	border: none;
 	color: white;
 	padding: 1px;
@@ -47,11 +47,14 @@ p {
 	transition: all 0.3s ease-out;
 }
 .accessbutton:hover{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 100, 136, 0.5);
 }
 
 .minorlink{
-
+	color: rgba(0, 0, 255, 0.548)
+}
+.minorlink:hover{
+	color: rgb(0, 0, 250);
 }
 
 .inputbutton{
