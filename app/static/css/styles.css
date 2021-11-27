@@ -1,7 +1,11 @@
-
 body {
 	text-align: center;
 	background-color: skyblue;
+	font-variant: small-caps;
+}
+
+p {
+	font-variant: normal;
 }
 
 .navbuttons .navbutton{
@@ -18,11 +22,37 @@ body {
 	width: 20%;
 	font-family: Copperplate; 
 	font-style: normal; 
-	font-variant: small-caps; 
 	font-weight: 700; 
 	outline: none;
 	transition: all 0.3s ease-out;
   }
-  .navbuttons .navbutton:hover{
+.navbuttons .navbutton:hover{
 	background-color: rgba(0, 0, 0, 0.5);
-  }
+}
+
+.accessbutton{
+	display: block;
+	float: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	color: white;
+	padding: 1px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: "Garamond", serif; 
+	font-style: normal; 
+	font-variant: small-caps;
+	outline: none;
+	transition: all 0.3s ease-out;
+}
+.accessbutton:hover{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.minorlink{
+
+}
+
+.inputbutton{
+}
