@@ -21,15 +21,17 @@
         <h2 style="color: red;">Error: {{error}}</h2>
         {% endif %}
         <form action="/editBlog/{{id}}" method="POST">
-            Title:
+            <strong>Title:</strong>
             <br>
               <input type="text" name="title" value ="{{postTitle}}">
               <br>
-            Post Contents:
+              <br>
+            <strong>Post Contents:</strong>
             <br>
               <textarea name="contents" rows="6">{{postContent}}</textarea>
             <br>
-            <input type = "submit" name = "update" value = "Update Post">
+            <br>
+            <input type = "submit" name = "update" value = "Update Post" class="inputbutton">
         </form>
     </body>
 </html>

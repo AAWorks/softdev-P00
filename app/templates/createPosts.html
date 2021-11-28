@@ -21,15 +21,17 @@
       <h2 style="color: red;">Error: {{error}}</h2>
       {% endif %}
       <form action="/createPosts" method="POST">
-        Title:
+        <strong>Title:</strong>
         <br>
         <input type="text" name="title">
         <br>
-        Post Contents:
+        <br>
+        <strong>Post Contents:</strong>
         <br>
         <textarea name="contents"></textarea>
         <br>
-        <input type = "submit" name = "create" value = "Create Post">
+        <br>
+        <input type = "submit" name = "create" value = "Create Post" class="inputbutton">
     </form>
     </body>
 </html>
