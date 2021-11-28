@@ -5,8 +5,8 @@
 - Andy Lin: backend
 - Shadman Rakib: backend and database
 - Raymond Yeung: frontend and website
-- Alejandro Alonso: Front end design and css implementation
-- Aaron Contreras: Front end design
+- Alejandro Alonso (Editor): Front end design and css implementation
+- Aaron Contreras (Editor): Front end design
 
 ## How to use
 
